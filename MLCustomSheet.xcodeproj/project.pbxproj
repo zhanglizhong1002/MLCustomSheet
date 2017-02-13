@@ -13,6 +13,7 @@
 		6BDF19931E51B304007F8C37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BDF19911E51B304007F8C37 /* Main.storyboard */; };
 		6BDF19951E51B304007F8C37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BDF19941E51B304007F8C37 /* Assets.xcassets */; };
 		6BDF19981E51B304007F8C37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BDF19961E51B304007F8C37 /* LaunchScreen.storyboard */; };
+		6BDF19A11E51B324007F8C37 /* MLCustomSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDF19A01E51B324007F8C37 /* MLCustomSheet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		6BDF19941E51B304007F8C37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6BDF19971E51B304007F8C37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6BDF19991E51B304007F8C37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BDF199F1E51B324007F8C37 /* MLCustomSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLCustomSheet.h; sourceTree = "<group>"; };
+		6BDF19A01E51B324007F8C37 /* MLCustomSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLCustomSheet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		6BDF19871E51B304007F8C37 /* MLCustomSheet */ = {
 			isa = PBXGroup;
 			children = (
+				6BDF199F1E51B324007F8C37 /* MLCustomSheet.h */,
+				6BDF19A01E51B324007F8C37 /* MLCustomSheet.m */,
 				6BDF198B1E51B304007F8C37 /* AppDelegate.h */,
 				6BDF198C1E51B304007F8C37 /* AppDelegate.m */,
 				6BDF198E1E51B304007F8C37 /* ViewController.h */,
@@ -110,7 +115,7 @@
 				TargetAttributes = {
 					6BDF19841E51B304007F8C37 = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -153,6 +158,7 @@
 				6BDF19901E51B304007F8C37 /* ViewController.m in Sources */,
 				6BDF198D1E51B304007F8C37 /* AppDelegate.m in Sources */,
 				6BDF198A1E51B304007F8C37 /* main.m in Sources */,
+				6BDF19A11E51B324007F8C37 /* MLCustomSheet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +276,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MLCustomSheet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = company.MLCustomSheet;
@@ -281,6 +288,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MLCustomSheet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = company.MLCustomSheet;
